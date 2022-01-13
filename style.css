@@ -10,8 +10,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-position: center;
   background: url(./img/claudia-wolff-owBcefxgrIE-unsplash.jpg);
+  background-position: center;
 }
 
 #card {
