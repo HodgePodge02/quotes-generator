@@ -3,3 +3,56 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+#quote_Generator {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background: url(./img/claudia-wolff-owBcefxgrIE-unsplash.jpg);
+}
+
+#card {
+  padding: 2rem 4rem;
+  min-height: 40vh;
+  width: 35%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#card h1 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card p {
+  margin: 1.5rem 0;
+  text-align: left;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+}
+#card span {
+  display: block;
+  text-align: right;
+  font-family: "Libre Baskerville", serif;
+}
+
+#button-wrapper {
+  margin-top: 2rem;
+}
+
+#button-wrapper button {
+  border-radius: 10px;
+  height: 2rem;
+  width: 15rem;
+  font-size: large;
+  font-family: "Libre Baskerville", serif;
+}
