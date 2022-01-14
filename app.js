@@ -22,7 +22,7 @@ function changeQuote() {
 
 function changeDOMQuoteContent(index) {
   document.getElementById("quote").innerText = Quotes[index].quote;
-  document.getElementById("author").innerText = Quotes[index].author;
+  document.getElementById("author").innerText = `~${Quotes[index].author}`;
 }
 
 function updatePastIndex(i) {
