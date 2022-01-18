@@ -49,10 +49,89 @@
   margin-top: 2rem;
 }
 
-#button-wrapper button {
+#generate-button {
   border-radius: 10px;
   height: 2rem;
   width: 15rem;
   font-size: large;
   font-family: "Libre Baskerville", serif;
+}
+
+@media screen and (max-width: 1270px) {
+  #card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  #card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  #card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  #card {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  #card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 683px) {
+  html {
+    font-size: 80%;
+  }
+  #card {
+    width: 65%;
+  }
+  #generate-button {
+    font-size: 92%;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  #quote_Generator {
+    background: url(./img/bg-mobile.png);
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  #generate-button {
+    font-size: 92%;
+  }
+  #card {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #card {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  #card h1 {
+    font-size: 1.5rem;
+  }
+  #text p {
+    font-size: 1.85rem;
+  }
 }
