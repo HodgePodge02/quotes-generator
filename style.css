@@ -55,6 +55,7 @@
   width: 15rem;
   font-size: large;
   font-family: "Libre Baskerville", serif;
+  color: black;
 }
 
 @media screen and (max-width: 1270px) {
