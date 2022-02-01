@@ -1,10 +1,10 @@
 export default [
   {
-    quote: "Bitches are temporary but the boys are forever...",
+    quote: "Bitches are temporary but the gym is eternal.",
     author: "Ollie",
   },
   {
-    quote: "Bro... don't post that",
+    quote: "It doesn't even have a QR code...",
     author: "Adam",
   },
   {
@@ -70,6 +70,10 @@ export default [
   },
   {
     quote: "Never love with all your heart. It only ends in breaking.",
+    author: "Anonymous",
+  },
+  {
+    quote: "Life sucks, then you die.",
     author: "Anonymous",
   },
 ];
